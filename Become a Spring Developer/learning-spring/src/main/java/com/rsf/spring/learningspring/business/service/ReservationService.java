@@ -25,6 +25,22 @@ public class ReservationService {
         this.reservationRepository = reservationRepository;
     }
 
+    public List<Guest> getAllGuests(){
+        Iterable<Guest> guests = this.guestRepository.findAll();
+        List<Guest> guestsList = new ArrayList<>();
+        guests.forEach(guest -> {guestsList.add(guest);});
+        guestsList.sort(new Comparator<Guest>() {
+            @Override
+            public int compare(Guest o1, Guest o2) {
+                if (o1.getLastName() == o2.getLastName()) {
+                    return o1.getFirstName().compareTo(o2.getFirstName());
+                }
+                return o1.getLastName().compareTo(o2.getLastName());
+            }
+        });
+        return guestsList;
+    }
+
     public List<RoomReservation> getRoomReservationsForDate(Date date){
         Iterable<Room> rooms = this.roomRepository.findAll();
         Map<Long, RoomReservation> roomReservationMap = new HashMap();
