@@ -48,6 +48,15 @@ public class ReservationService {
         for(Long id: roomReservationMap.keySet()){
             roomReservations.add(roomReservationMap.get(id));
         }
+        roomReservations.sort(new Comparator<RoomReservation>(){
+            @Override
+            public int compare(RoomReservation o1, RoomReservation o2){
+                if (o1.getRoomNumber() == o2.getRoomNumber()){
+                    return o1.getRoomNumber().compareTo(o2.getRoomNumber());
+                }
+                return o1.getRoomName().compareTo(o2.getRoomName());
+            }
+        });
         return roomReservations;
     }
 }
