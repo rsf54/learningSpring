@@ -23,7 +23,7 @@ public class RoomClrApplication {
 	return builder.build();
 	}
 
-	@Bean
+	/*@Bean
 	public CommandLineRunner run(RestTemplate restTemplate) throws Exception{
 		return args -> {
 			LOG.info("Starting CLR application");
@@ -34,6 +34,18 @@ public class RoomClrApplication {
 				LOG.info(room.toString());
 			});
 			LOG.info("Finishing CLR application");
+		};
+	}*/
+
+	@Bean
+	public CommandLineRunner run(){
+		return args -> {
+			for(int i=0;i<101;i++){
+				String result = "";
+				result += (i%3) == 0? "Fizz" : "";
+				result += (i%5) == 0? "Buzz" : "";
+				System.out.println(!result.isEmpty() ? result : i);
+			}
 		};
 	}
 
