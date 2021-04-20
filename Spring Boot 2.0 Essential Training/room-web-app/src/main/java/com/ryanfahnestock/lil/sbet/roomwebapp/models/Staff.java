@@ -1,30 +1,32 @@
 package com.ryanfahnestock.lil.sbet.roomwebapp.models;
 
+
+import javax.persistence.*;
+import java.util.UUID;
+
+@Entity
+@Table(name="Employee")
 public class Staff {
-    private long id;
+    @Id
+    @Column(name="EMPLOYEE_ID")
     private String employeeId;
+    @Column(name="FIRST_NAME")
     private String firstName;
+    @Column(name="LAST_NAME")
     private String lastName;
-    private String position;
+    @Column(name="POSITION")
+    @Enumerated(EnumType.STRING)
+    private Position position;
 
     public Staff() {
-
+        this.employeeId = UUID.randomUUID().toString();
     }
 
-    public Staff(long id, String employeeId, String firstName, String lastName, String position) {
-        this.id = id;
+    public Staff(long id, String employeeId, String firstName, String lastName, Position position) {
         this.employeeId = employeeId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.position = position;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 
     public String getEmployeeId() {
@@ -51,11 +53,11 @@ public class Staff {
         this.lastName = lastName;
     }
 
-    public String getPosition() {
+    public Position getPosition() {
         return position;
     }
 
-    public void setPosition(String position) {
+    public void setPosition(Position position) {
         this.position = position;
     }
 }
