@@ -19,4 +19,8 @@ public class RoomService {
     }
 
     public List<Room> getAllRooms() {return rooms;}
+
+    public Room getById(long id) {
+        return rooms.get((int) id);
+    }
 }
