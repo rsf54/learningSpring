@@ -31,7 +31,6 @@ public class GuestController {
 
     @GetMapping(value={"/", "/index"})
     public String getHomePage(Model model){
-
         return "index";
     }
 
