@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring Security.iml" filepath="$PROJECT_DIR$/.idea/Spring Security.iml" />
       <module fileurl="file://$PROJECT_DIR$/guest-app/guest-app.iml" filepath="$PROJECT_DIR$/guest-app/guest-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/guest-services/guest-services.iml" filepath="$PROJECT_DIR$/guest-services/guest-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-service/hello-service.iml" filepath="$PROJECT_DIR$/hello-service/hello-service.iml" />
     </modules>
   </component>
 </project>

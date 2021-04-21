@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/guest-app/pom.xml" />
         <option value="$PROJECT_DIR$/guest-services/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-service/pom.xml" />
       </list>
     </option>
   </component>
