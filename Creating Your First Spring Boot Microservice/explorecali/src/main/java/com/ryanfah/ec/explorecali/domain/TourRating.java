@@ -15,6 +15,10 @@ public class TourRating {
     @Column
     private String comment;
 
+    protected TourRating(){
+
+    }
+
     public TourRating(TourRatingPk pk, Integer score, String comment) {
         this.pk = pk;
         this.score = score;
