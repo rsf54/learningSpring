@@ -2,6 +2,7 @@ package com.ryanfah.ec.explorecali.domain;
 
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.aggregation.ArrayOperators;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.validation.constraints.Max;
@@ -25,9 +26,11 @@ public class TourRating {
 
     protected TourRating(){}
 
-    public TourRating(Integer score, String comment) {
+    public TourRating(String id, Integer customerId, Integer score, String comment) {
         this.score = score;
+        this.id = id;
         this.comment = comment;
+        this.customerId = customerId;
     }
 
     public Integer getScore() {
@@ -44,5 +47,9 @@ public class TourRating {
 
     public void setComment(String comment) {
         this.comment = comment;
+    }
+
+    public Integer getCustomerId() {
+        return customerId;
     }
 }
