@@ -1,8 +1,6 @@
 package com.ryanfah.ec.explorecali.service;
 
 
-import com.ryanfah.ec.explorecali.domain.Difficulty;
-import com.ryanfah.ec.explorecali.domain.Region;
 import com.ryanfah.ec.explorecali.domain.Tour;
 import com.ryanfah.ec.explorecali.domain.TourPackage;
 import com.ryanfah.ec.explorecali.repo.TourPackageRepository;

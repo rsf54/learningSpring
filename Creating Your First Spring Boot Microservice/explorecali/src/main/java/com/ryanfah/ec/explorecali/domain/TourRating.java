@@ -1,36 +1,33 @@
 package com.ryanfah.ec.explorecali.domain;
 
 
-import javax.persistence.Column;
-import javax.persistence.EmbeddedId;
-import javax.persistence.Entity;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Entity
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+@Document
 public class TourRating {
 
-    @EmbeddedId
-    private TourRatingPk pk;
-    @Column(nullable=false)
+    @Id
+    private String id;
+    private String tourId;
+    @NotNull
+    private Integer customerId;
+    @Min(0)
+    @Max(5)
     private Integer score;
-    @Column
+    @Size(max=255)
     private String comment;
 
-    protected TourRating(){
+    protected TourRating(){}
 
-    }
-
-    public TourRating(TourRatingPk pk, Integer score, String comment) {
-        this.pk = pk;
+    public TourRating(Integer score, String comment) {
         this.score = score;
         this.comment = comment;
-    }
-
-    public TourRatingPk getPk() {
-        return pk;
-    }
-
-    public void setPk(TourRatingPk pk) {
-        this.pk = pk;
     }
 
     public Integer getScore() {

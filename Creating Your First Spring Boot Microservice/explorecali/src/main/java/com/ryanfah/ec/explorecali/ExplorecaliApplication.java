@@ -2,8 +2,6 @@ package com.ryanfah.ec.explorecali;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ryanfah.ec.explorecali.domain.Difficulty;
-import com.ryanfah.ec.explorecali.domain.Region;
 import com.ryanfah.ec.explorecali.service.TourPackageService;
 import com.ryanfah.ec.explorecali.service.TourService;
 import org.springframework.beans.factory.annotation.Autowired;
