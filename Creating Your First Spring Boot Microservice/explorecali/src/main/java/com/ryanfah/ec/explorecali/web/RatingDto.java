@@ -1,10 +1,12 @@
 package com.ryanfah.ec.explorecali.web;
 
+import com.ryanfah.ec.explorecali.domain.TourRating;
 import com.sun.istack.NotNull;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
+import java.util.List;
 
 public class RatingDto {
 
@@ -18,10 +20,16 @@ public class RatingDto {
     @NotNull
     private Integer customerId;
 
+    private List<TourRating> tourRatingList;
+
     public RatingDto(Integer score, String comment, Integer customerId) {
         this.score = score;
         this.comment = comment;
         this.customerId = customerId;
+    }
+
+    public RatingDto(TourRating tourRating){
+        this.tourRatingList.add(tourRating);
     }
 
     public void setScore(Integer score) {
