@@ -77,6 +77,10 @@ public class TourRating {
         }
     }
 
+    public Integer getId() {
+        return id;
+    }
+
     public Integer getScore() {
         return score;
     }
@@ -109,10 +113,6 @@ public class TourRating {
         this.comment = comment;
     }
 
-    public Integer getId() {
-        return id;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -129,6 +129,4 @@ public class TourRating {
     public int hashCode() {
         return Objects.hash(id, tour, customerId, score, comment);
     }
-
-
 }

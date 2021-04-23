@@ -149,6 +149,7 @@ public class TourRatingService {
         OptionalDouble average = ratings.stream().mapToInt((rating) -> rating.getScore()).average();
         return average.isPresent() ? average.getAsDouble():null;
     }
+
     /**
      * Service for many customers to give the same score for a service
      *
@@ -158,11 +159,11 @@ public class TourRatingService {
      */
     public void rateMany(int tourId,  int score, Integer [] customers) {
         LOGGER.info("Rate tour {} by customers {}", tourId, Arrays.asList(customers).toString());
-        Tour tour = tourRepository.findById(tourId).orElseThrow(() -> new NoSuchElementException());
-        for (Integer c : customers) {
-            LOGGER.debug("Attempt to create Tour Rating for customer {}", c);
-            tourRatingRepository.save(new TourRating(tour, c, score));
-        }
+        tourRepository.findById(tourId).ifPresent(tour -> {
+            for (Integer c : customers) {
+                tourRatingRepository.save(new TourRating(tour, c, score));
+            }
+        });
     }
 
     /**
@@ -186,7 +187,7 @@ public class TourRatingService {
      * @return the found TourRating
      * @throws NoSuchElementException if no TourRating found
      */
-    TourRating verifyTourRating(int tourId, int customerId) throws NoSuchElementException {
+    public TourRating verifyTourRating(int tourId, int customerId) throws NoSuchElementException {
         return tourRatingRepository.findByTourIdAndCustomerId(tourId, customerId).orElseThrow(() ->
                 new NoSuchElementException("Tour-Rating pair for request("
                         + tourId + " for customer" + customerId));
