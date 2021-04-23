@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8966a19b-4db5-40ae-a0b1-5c2542d15d76" name="Default Changelist" comment="Spring: Spring Security&#10;Chapter 5 part 2 Complete" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1rTyxtp6mPpbZGYkjPLeIWTVUss" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hello-service" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HelloServiceApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuestAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="guest-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frankmoley.security.app.GuestAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuestServicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="guest-services" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frankmoley.security.services.GuestServicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frankmoley.landon.security.helloservice.HelloServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8966a19b-4db5-40ae-a0b1-5c2542d15d76" name="Default Changelist" comment="" />
+      <created>1619014623348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619014623348</updated>
+      <workItem from="1619014624555" duration="551000" />
+      <workItem from="1619015184996" duration="4332000" />
+      <workItem from="1619019571118" duration="4000" />
+      <workItem from="1619019668321" duration="6862000" />
+    </task>
+    <task id="LOCAL-00001" summary="Spring: Spring Security&#10;Environment Set up&#10;Chapter 2 part 1 Complete">
+      <created>1619015798203</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619015798203</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Spring: Spring Security&#10;Chapter 2 part 2 Complete">
+      <created>1619016139273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619016139273</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Spring: Spring Security&#10;Chapter 2 part 3 Complete">
+      <created>1619017173901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619017173901</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Spring: Spring Security&#10;Chapter 2 part 4 Complete">
+      <created>1619018075377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619018075377</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Spring: Spring Security&#10;Chapter 2 part 5 Complete">
+      <created>1619018907015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619018907015</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Spring: Spring Security&#10;Chapter 2 part 7 Complete">
+      <created>1619019442299</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619019442299</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Spring: Spring Security&#10;Chapter 2 part 8 Complete">
+      <created>1619019857644</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619019857644</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Spring: Spring Security&#10;Chapter 2 part 9 Complete">
+      <created>1619020196743</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619020196743</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Spring: Spring Security&#10;Chapter 3 part 2 Complete">
+      <created>1619021096354</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619021096354</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Spring: Spring Security&#10;Chapter 3 part 3 Complete">
+      <created>1619021652573</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619021652573</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Spring: Spring Security&#10;Chapter 4 part 3 Complete">
+      <created>1619023440907</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619023440907</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Spring: Spring Security&#10;Chapter 4 part 4 Complete">
+      <created>1619023777301</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1619023777301</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Spring: Spring Security&#10;Chapter 4 part 5 Complete">
+      <created>1619025257632</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1619025257632</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Spring: Spring Security&#10;Chapter 5 part 2 Complete">
+      <created>1619026193985</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1619026193985</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Spring: Spring Security&#10;Environment Set up&#10;Chapter 2 part 1 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 2 part 2 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 2 part 3 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 2 part 4 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 2 part 5 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 2 part 7 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 2 part 8 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 2 part 9 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 3 part 2 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 3 part 3 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 4 part 3 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 4 part 4 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 4 part 5 Complete" />
+    <MESSAGE value="Spring: Spring Security&#10;Chapter 5 part 2 Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring: Spring Security&#10;Chapter 5 part 2 Complete" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
