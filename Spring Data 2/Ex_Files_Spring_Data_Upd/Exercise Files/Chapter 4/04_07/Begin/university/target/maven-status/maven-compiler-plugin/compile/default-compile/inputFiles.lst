@@ -1,0 +1,11 @@
+/Users/maryellenbowman/Desktop/Ex_Files_Spring_Data/Exercise Files/Chapter 4/04_07/Begin/university/src/main/java/com/example/university/domain/Staff.java
+/Users/maryellenbowman/Desktop/Ex_Files_Spring_Data/Exercise Files/Chapter 4/04_07/Begin/university/src/main/java/com/example/university/UniversityApplication.java
+/Users/maryellenbowman/Desktop/Ex_Files_Spring_Data/Exercise Files/Chapter 4/04_07/Begin/university/src/main/java/com/example/university/repo/StudentRepository.java
+/Users/maryellenbowman/Desktop/Ex_Files_Spring_Data/Exercise Files/Chapter 4/04_07/Begin/university/src/main/java/com/example/university/domain/Student.java
+/Users/maryellenbowman/Desktop/Ex_Files_Spring_Data/Exercise Files/Chapter 4/04_07/Begin/university/src/main/java/com/example/university/repo/StaffRepository.java
+/Users/maryellenbowman/Desktop/Ex_Files_Spring_Data/Exercise Files/Chapter 4/04_07/Begin/university/src/main/java/com/example/university/repo/CourseRepository.java
+/Users/maryellenbowman/Desktop/Ex_Files_Spring_Data/Exercise Files/Chapter 4/04_07/Begin/university/src/main/java/com/example/university/domain/Person.java
+/Users/maryellenbowman/Desktop/Ex_Files_Spring_Data/Exercise Files/Chapter 4/04_07/Begin/university/src/main/java/com/example/university/domain/Course.java
+/Users/maryellenbowman/Desktop/Ex_Files_Spring_Data/Exercise Files/Chapter 4/04_07/Begin/university/src/main/java/com/example/university/repo/DepartmentRepository.java
+/Users/maryellenbowman/Desktop/Ex_Files_Spring_Data/Exercise Files/Chapter 4/04_07/Begin/university/src/main/java/com/example/university/view/CourseView.java
+/Users/maryellenbowman/Desktop/Ex_Files_Spring_Data/Exercise Files/Chapter 4/04_07/Begin/university/src/main/java/com/example/university/domain/Department.java
