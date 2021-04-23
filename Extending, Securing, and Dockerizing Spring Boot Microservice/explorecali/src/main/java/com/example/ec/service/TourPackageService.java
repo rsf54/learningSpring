@@ -21,13 +21,14 @@ public class TourPackageService {
 
     public TourPackage createTourPackage(String code, String name) {
         return !tourPackageRepository.existsById(code) ?
-                tourPackageRepository.save(new TourPackage(code, name)) :
-                null;
-
+                tourPackageRepository.save(new TourPackage(code, name))
+                : null;
     }
+
     public Iterable<TourPackage> lookup(){
         return tourPackageRepository.findAll();
     }
+
     public long total() {
         return tourPackageRepository.count();
     }

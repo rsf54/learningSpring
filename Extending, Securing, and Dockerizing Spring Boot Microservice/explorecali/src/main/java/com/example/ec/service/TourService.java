@@ -8,13 +8,14 @@ import com.example.ec.repo.TourPackageRepository;
 import com.example.ec.repo.TourRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * Tour  Service
  *
  * Created by Mary Ellen Bowman
  */
-
+@Transactional
 @Service
 public class TourService {
     private TourRepository tourRepository;
