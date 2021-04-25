@@ -15,8 +15,8 @@ public class ApplicationInitializer implements WebApplicationInitializer {
         //bootstrap dispatcherservlet
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
         context.register(ApplicationConfig.class);
-        ServletRegistration.Dynamic servletRegistration = servletContext.addServlet("mvc", new DispatcherServlet(context));
-
+        ServletRegistration.Dynamic servletRegistration =
+                servletContext.addServlet("mvc", new DispatcherServlet(context));
         servletRegistration.setLoadOnStartup(1); //Required for registration, with priority 1
         servletRegistration.addMapping("/"); //All requests will follow this, i.e. /app/ only Bootstraps requests headed w/ /app/
     }
