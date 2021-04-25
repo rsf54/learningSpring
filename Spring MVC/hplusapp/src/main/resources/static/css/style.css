@@ -314,7 +314,7 @@ em {
 	background-position: center center;
 	background-size: cover;
 	height: 100vh;
-	max-height: none
+	max-height: auto
 }
 
 #products .product-list {
@@ -372,8 +372,8 @@ em {
 	animation: a 1s
 }
 
-
--webkit-keyframes a {
+@
+-webkit-keyframes a { 0%{
 	-webkit-transform: translate3d(0, 100%, 0);
 	transform: translate3d(0, 100%, 0);
 	visibility: visible
@@ -384,8 +384,9 @@ to {
 	transform: translateZ(0)
 }
 
-
-keyframes a {
+}
+@
+keyframes a { 0%{
 	-webkit-transform: translate3d(0, 100%, 0);
 	transform: translate3d(0, 100%, 0);
 	visibility: visible
@@ -396,7 +397,7 @@ to {
 	transform: translateZ(0)
 }
 
-
+}
 @media screen and (min-width:600px) {
 	#products .product-list .product-item {
 		width: 33.33333%

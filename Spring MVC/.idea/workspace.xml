@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bfa4625-f586-41d9-bde7-ac2ec7a99906" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/springmvcmaven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvcmaven/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hplusapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hplusapp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619378849956</updated>
       <workItem from="1619378851120" duration="6000" />
+      <workItem from="1619380569998" duration="3000" />
     </task>
     <servers />
   </component>
