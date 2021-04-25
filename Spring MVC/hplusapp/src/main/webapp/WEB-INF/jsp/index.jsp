@@ -15,7 +15,7 @@
             </div><!-- branding -->
             <ul class="navbar">
                 <li><a href="">home</a></li>
-                <li><a href="">login</a></li>
+                <li><a href="/goToLogin">login</a></li>
                 <li><a href="/goToSearch">search</a></li>
                 <li><a href="">linkedin</a></li>
             </ul><!-- navbar -->
@@ -106,6 +106,7 @@
                 <p class="card-text">Michael Lewiston is a multi-faceted <em>creative person</em> who began his career as a designer for a small business firm, while also working as an independent <em>painter and sculptor</em>. In 2007, Henry Twill was impressed by Michael’s creative work in a national ad campaign for a high profile sports apparel company. Henry approached Michael, and asked him to <em>manage creative direction</em> for the H+ Sport ACTIVE apparel line.</p>
             </div><!-- person-card -->
         </div><!-- container -->
+    </div>
 </section><!-- people -->
 
 
