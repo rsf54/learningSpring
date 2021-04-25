@@ -41,7 +41,7 @@
 	<section id="registration" class="section">
 	 <div class="container tagline">
 	 <em>Register User</em><br/>
-    		 <form:form method="post" action="newuser" >
+    		 <form:form method="post" action="/registeruser" modelAttribute="newuser" >
     			<label>Username</label> <form:input path="username" type="text" /><br/>
     			<label>Password</label> <form:input path="password" type="password" /><br/>
     			<label>First Name</label> <form:input path="firstName" type="text" /><br/>
