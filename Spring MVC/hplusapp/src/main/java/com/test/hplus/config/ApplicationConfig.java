@@ -16,7 +16,6 @@ public class ApplicationConfig extends WebMvcConfigurationSupport {
     protected void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("css/**", "images/**")
                 .addResourceLocations("classpath:/static/css/", "classpath:/static/images/");
-        //tells everything to make dirs correct in the WAR
     }
 
     @Bean
@@ -27,5 +26,4 @@ public class ApplicationConfig extends WebMvcConfigurationSupport {
         viewResolver.setViewClass(JstlView.class);
         return viewResolver;
     }
-
 }
