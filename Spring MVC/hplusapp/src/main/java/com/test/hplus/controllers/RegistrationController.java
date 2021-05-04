@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class RegistrationController {
 
     @Autowired
-    private UserRepository userRepository;
+    private UserRepository userRepository;//comment
 
     @PostMapping("/registeruser")
     public String registerUser(@ModelAttribute("newuser") User user, Model model){
