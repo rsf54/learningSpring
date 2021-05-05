@@ -31,13 +31,15 @@ public class CustomerContactRepositoryIntegrationTest {
 		
 		// setup data scenario
 		CustomerContact aNewContact = new CustomerContact();
-		
+		aNewContact.setEmail("fredj@myemail.com");
+		entityManager.persist(aNewContact);
+
         // Find an inserted record using repository class
-        CustomerContact foundContact = customerContactRepository.findByEmail("");
+        CustomerContact foundContact = customerContactRepository.findByEmail("fredj@myemail.com");
         
         
         // Assertion
-        assertThat(foundContact.getEmail(), is(equalTo("")));
+        assertThat(foundContact.getEmail(), is(equalTo("fredj@myemail.com")));
     }
 	
 }
