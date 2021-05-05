@@ -42,9 +42,9 @@ public class CustomerContactRepositoryDbUnitTest {
     public void testFindByEmail() {
 		
         // Find an inserted record
-        
+        CustomerContact foundContact = customerContactRepository.findByEmail("elaine@myemail.com");
         // Assertion
-        
+        assertThat(foundContact.getEmail(), is(equalTo("elaine@myemail.com")));
     }
 	
 	@Test
